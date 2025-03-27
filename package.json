@@ -304,7 +304,7 @@
           "*.zzb.yml",
           "*.zzb.yaml"
         ],
-        "url": "https://agrostar.in/schemas/zzapi-bundle.schema.json"
+        "url": "/home/odinx/projects/zz/zzapi/schemas/zzapi-bundle.schema.json"
       },
       {
         "fileMatch": [
@@ -352,7 +352,8 @@
     "webpack-cli": "^5.1.4"
   },
   "dependencies": {
+    "formdata-node": "^6.0.3",
     "yaml": "^2.4.3",
-    "zzapi": "^2.0.1"
+    "zzapi": "file:../zzapi"
   }
 }
